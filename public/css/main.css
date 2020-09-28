@@ -51,6 +51,14 @@ body {
   margin-bottom: 50px;
 }
 
+.welcome__description--red {
+  color: red;
+}
+
+.welcome__description--green {
+  color: green;
+}
+
 .welcome__button {
   width: 75%;
   display: block;
@@ -59,4 +67,5 @@ body {
   background-color: rgba(200, 210, 233);
   border: none;
   font-size: 16px;
+  cursor: pointer;
 }
