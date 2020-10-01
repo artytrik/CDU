@@ -5,8 +5,8 @@ import {KeycloakProvider} from '@react-keycloak/web';
 import keycloak from './keycloak';
 
 ReactDOM.render(
-  <KeycloakProvider keycloak={keycloak}>
-    <App/>
-  </KeycloakProvider>,
-  document.querySelector(`#root`)
+    <KeycloakProvider keycloak={keycloak}>
+      <App/>
+    </KeycloakProvider>,
+    document.querySelector(`#root`)
 );

@@ -1,12 +1,13 @@
 {
   "name": "cdu",
   "version": "1.0.0",
-  "description": "",
+  "description": "Тестовый проект keycloak",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint --ext .jsx --ext .js src/",
+    "test": "npm run eslint"
   },
   "author": "",
   "license": "ISC",
@@ -15,12 +16,16 @@
     "@babel/preset-env": "7.11.5",
     "@babel/preset-react": "7.10.4",
     "babel-loader": "8.1.0",
+    "eslint": "7.10.0",
+    "eslint-config-htmlacademy": "0.6.0",
+    "eslint-plugin-react": "7.21.2",
     "webpack": "4.44.2",
     "webpack-cli": "3.3.12",
     "webpack-dev-server": "3.11.0"
   },
   "dependencies": {
     "@react-keycloak/web": "2.1.4",
+    "dayjs": "1.9.1",
     "keycloak-js": "11.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1"
